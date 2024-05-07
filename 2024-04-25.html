@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        Neste exercício você criará uma função chamada somaEspecial(num1, num2) que
+        recebe dois números como parâmetros.<br><br>
+        O primeiro deve ser multiplicado por 2 e armazenado em uma variável dentro da
+        função.<br>
+        O segundo deve ser dividido por 2 e também deve ser armazenado em um varíável
+        dentro dessa função.<br>
+        Essa função deve retornar a soma entre essas duas variáveis, encontradas a partir
+        dos parâmetros recebidos.<br><br>
+
+    </h3>
+    <script>
+        function somaEspecial(num1, num2){
+            let soma1 = num1 * 2;
+            let soma2 = num2 / 2;
+            document.write("O valor da soma das duas variaveis é: " + (soma1+soma2) + "<br>")
+        }
+         
+        somaEspecial(2,4);
+
+        //Outra forma de ser resolvido com o usuario digitando
+
+        function somaEspecial01(num01, num02){
+            let soma1 = parseFloat(prompt("Digite o primeiro numero!")*2)
+            let soma2 = parseFloat(prompt("Digite o segundo numero!")/2)
+            document.write("O valor da soma das duas variaveis digitadas é: " + (soma1+soma2))
+        }
+
+        somaEspecial01()
+
+
+      
+    </script>
+</body>
+</html>
+

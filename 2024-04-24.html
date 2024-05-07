@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        Crie uma função chamada calculaArea(r) que recebe um parâmetro numérico e
+        retorna a área de um círculo com esse valor de raio <br> 
+    </h3>
+    <script>
+        function calculaArea(r) {
+            const pi = 3.1415.toFixed(3);
+            r = pi * Math.pow(r,2);
+            document.write("A area do circulo é: "+ r);
+        }
+        
+        calculaArea(prompt("digite a area desejada"));
+    </script>
+</body>
+</html>
